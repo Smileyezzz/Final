@@ -10,7 +10,6 @@ public class Cat_module : MonoBehaviour
     protected bool isEnemy;
     private float pos;
 
-
     protected void Move(bool isEnemy, float speed, float weight)
     {
         if(isEnemy)
@@ -26,7 +25,8 @@ public class Cat_module : MonoBehaviour
     protected void BeAttack(bool isEnemy, int health, float weight)
     {
         pos = -0.005f*(health + weight);
-        if(isEnemy){
+        if(isEnemy)
+        {
             gameObject.transform.position += new Vector3(pos, 0, 0);
         }
         else
@@ -34,6 +34,7 @@ public class Cat_module : MonoBehaviour
             gameObject.transform.position -= new Vector3(pos, 0, 0);
         }
     }
+
     protected void CheckIfDead(int health)
     {
         if(health <= 0)
