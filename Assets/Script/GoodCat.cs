@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class GoodCat : Cat_module
 {
-    int health = 250;
-    float speed = 0.07f;
-    float weight = 200f;
-    bool isEnemy = false;
+    public GoodCat(){
+        health = 250;
+        speed = 0.07f;
+        weight = 200f;
+        isEnemy = false;
+    }
 
     void Update()
     {

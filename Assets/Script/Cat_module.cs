@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class Cat_module : MonoBehaviour
 {
-    private int health;
-    private float speed;
-    private float weight;
+    protected int health;
+    protected float speed;
+    protected float weight;
+    protected bool isEnemy;
     private float pos;
-    private bool isEnemy;
+
+    public Cat_module(){
+        health = 200;
+        speed = 0.01f;
+        weight = 100f;
+        isEnemy = false;
+    }
 
     protected void Move(bool isEnemy, float speed, float weight)
     {
