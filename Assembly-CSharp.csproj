@@ -55,12 +55,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\moneyr_record.cs" />
      <Compile Include="Assets\Script\Backward.cs" />
      <Compile Include="Assets\Script\BadCat.cs" />
      <Compile Include="Assets\Script\Cat_module.cs" />
      <Compile Include="Assets\Script\Forward.cs" />
      <Compile Include="Assets\Script\GoodCat.cs" />
+     <Compile Include="Assets\Script\moneyr_record.cs" />
      <Compile Include="Assets\Script\Spawn.cs" />
      <Compile Include="Assets\Script\Spawn_2.cs" />
      <Compile Include="Assets\Script\Tower1.cs" />
