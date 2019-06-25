@@ -10,12 +10,6 @@ public class Cat_module : MonoBehaviour
     protected bool isEnemy;
     private float pos;
 
-    public Cat_module(){
-        health = 200;
-        speed = 0.01f;
-        weight = 100f;
-        isEnemy = false;
-    }
 
     protected void Move(bool isEnemy, float speed, float weight)
     {
