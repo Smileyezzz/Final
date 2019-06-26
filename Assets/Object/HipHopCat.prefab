@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7016061540580838046}
   - component: {fileID: 7016061540580838040}
   - component: {fileID: 2675246532820485271}
-  - component: {fileID: 1028336654594103022}
+  - component: {fileID: 2630012958019562097}
   m_Layer: 0
   m_Name: HipHopCat
-  m_TagString: Untagged
+  m_TagString: Cat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1028336654594103022
+--- !u!114 &2630012958019562097
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7016061540580838047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc80aceb54324debb45eecac3165fd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 99e79ff95e7a2422089f47b1084f8e83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

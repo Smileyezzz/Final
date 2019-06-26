@@ -56,15 +56,21 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Backward.cs" />
-     <Compile Include="Assets\Script\BadCat.cs" />
+     <Compile Include="Assets\Script\Boss_module.cs" />
+     <Compile Include="Assets\Script\Boss_Status\BearBoss.cs" />
+     <Compile Include="Assets\Script\Boss_Status\GiantBoss.cs" />
+     <Compile Include="Assets\Script\Boss_Status\ScorpionBoss.cs" />
      <Compile Include="Assets\Script\Cat_module.cs" />
+     <Compile Include="Assets\Script\Cat_Status\AxeCat.cs" />
+     <Compile Include="Assets\Script\Cat_Status\GrooseCat.cs" />
+     <Compile Include="Assets\Script\Cat_Status\HipHopCat.cs" />
+     <Compile Include="Assets\Script\Cat_Status\NormalCat.cs" />
      <Compile Include="Assets\Script\Forward.cs" />
-     <Compile Include="Assets\Script\GoodCat.cs" />
      <Compile Include="Assets\Script\moneyr_record.cs" />
-     <Compile Include="Assets\Script\Spawn.cs" />
-     <Compile Include="Assets\Script\Spawn_2.cs" />
-     <Compile Include="Assets\Script\Tower1.cs" />
-     <Compile Include="Assets\Script\Tower2.cs" />
+     <Compile Include="Assets\Script\Spawn_enemy.cs" />
+     <Compile Include="Assets\Script\Spawn_mine.cs" />
+     <Compile Include="Assets\Script\Tower_enemy.cs" />
+     <Compile Include="Assets\Script\Tower_mine.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

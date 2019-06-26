@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 2765947704612624332}
   - component: {fileID: 2313618865565386368}
   - component: {fileID: 1264553698275421545}
-  - component: {fileID: 9005666791242979810}
+  - component: {fileID: 2443604106356938328}
   m_Layer: 0
   m_Name: AxeCat
-  m_TagString: Untagged
+  m_TagString: Cat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &9005666791242979810
+--- !u!114 &2443604106356938328
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6114235924518862671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc80aceb54324debb45eecac3165fd4, type: 3}
+  m_Script: {fileID: 11500000, guid: be3c0da2f08a44d158a306abc26c0c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

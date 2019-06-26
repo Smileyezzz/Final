@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 1648961551364224393}
   - component: {fileID: 941572913876231939}
   - component: {fileID: 1229562337553128696}
-  - component: {fileID: 8287789007708247469}
+  - component: {fileID: 1765113757525143605}
   m_Layer: 0
   m_Name: NormalCat
-  m_TagString: Untagged
+  m_TagString: Cat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8287789007708247469
+--- !u!114 &1765113757525143605
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3730234706377846878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc80aceb54324debb45eecac3165fd4, type: 3}
+  m_Script: {fileID: 11500000, guid: f7bf51cdf360d45d09a35a37d9c2d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

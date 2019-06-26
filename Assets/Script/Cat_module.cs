@@ -7,32 +7,17 @@ public class Cat_module : MonoBehaviour
     protected int health;
     protected float speed;
     protected float weight;
-    protected bool isEnemy;
     private float pos;
 
-    protected void Move(bool isEnemy, float speed, float weight)
+    protected void Move(float speed, float weight)
     {
-        if(isEnemy)
-        {
-            gameObject.transform.position += new Vector3(speed, 0, 0);
-        }
-        else
-        {
-            gameObject.transform.position -= new Vector3(speed, 0, 0);
-        }
+        gameObject.transform.position -= new Vector3(speed, 0, 0);
     }
 
-    protected void BeAttack(bool isEnemy, int health, float weight)
+    protected void BeAttack(int health, float weight)
     {
         pos = -0.005f*(health + weight);
-        if(isEnemy)
-        {
-            gameObject.transform.position += new Vector3(pos, 0, 0);
-        }
-        else
-        {
-            gameObject.transform.position -= new Vector3(pos, 0, 0);
-        }
+        gameObject.transform.position -= new Vector3(pos, 0, 0);
     }
 
     protected void CheckIfDead(int health)
