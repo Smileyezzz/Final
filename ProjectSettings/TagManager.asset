@@ -4,6 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - AxeCat
+  - NormalCat
+  - HipHopCat
+  - GrooseCat
+  - BossBear
+  - BossScorpion
+  - BossGiant
   - Boss
   - Cat
   layers:

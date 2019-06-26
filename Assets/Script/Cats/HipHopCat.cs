@@ -8,7 +8,7 @@ public class HipHopCat : Cat_module
     {
         health = 150;
         speed  = 0.12f;
-        weight = 100f;
+        weight = 180f;
     }
     
     void Update()
@@ -18,11 +18,26 @@ public class HipHopCat : Cat_module
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag == "Boss")
+        if(col.tag == "BossBear")
         {
             health -= 50;
             CheckIfDead(health);
             BeAttack(health, weight);
         }
+
+        if(col.tag == "BossScorpion")
+        {
+            health -= 75;
+            CheckIfDead(health);
+            BeAttack(health, weight);
+        }
+
+        if(col.tag == "BossGiant")
+        {
+            health -= 100;
+            CheckIfDead(health);
+            BeAttack(health, weight);
+        }
+
     }
 }

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2630012958019562097}
   m_Layer: 0
   m_Name: HipHopCat
-  m_TagString: Cat
+  m_TagString: HipHopCat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
