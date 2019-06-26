@@ -59,6 +59,7 @@
      <Compile Include="Assets\Script\Boss\Boss_module.cs" />
      <Compile Include="Assets\Script\Boss\GiantBoss.cs" />
      <Compile Include="Assets\Script\Boss\ScorpionBoss.cs" />
+     <Compile Include="Assets\Script\Botton.cs" />
      <Compile Include="Assets\Script\Cats\AxeCat.cs" />
      <Compile Include="Assets\Script\Cats\Cat_module.cs" />
      <Compile Include="Assets\Script\Cats\GrooseCat.cs" />
