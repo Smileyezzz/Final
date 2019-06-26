@@ -19,7 +19,7 @@ public class Spawn_enemy : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if(time > 5f)
+        if(time > 2f)
         {
             Vector3 pos = gameObject.transform.position + new Vector3(8f, 0, 0);
             Instantiate(Boss_1, pos, transform.rotation);
