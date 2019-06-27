@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.29411766, g: 0.84705883, b: 0.12589, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -473,8 +473,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f43b53e5673f4274b18bac1c5aa5d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time_UI: {fileID: 0}
   image: {fileID: 359496299}
   button: {fileID: 1773596812}
+  cost: 50
 --- !u!1 &359496297
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.29411766, g: 0.84705883, b: 0.12589, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1008,7 +1010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.29411766, g: 0.84705883, b: 0.12589, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1487,8 +1489,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f43b53e5673f4274b18bac1c5aa5d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time_UI: {fileID: 0}
   image: {fileID: 1590896942}
   button: {fileID: 1104953650}
+  cost: 15
 --- !u!1 &1590896940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,7 +1543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2939837, g: 0.84705883, b: 0.1254902, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1756,8 +1760,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f43b53e5673f4274b18bac1c5aa5d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time_UI: {fileID: 0}
   image: {fileID: 172123073}
   button: {fileID: 427870832}
+  cost: 30
 --- !u!1 &2014799712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,8 +1851,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f43b53e5673f4274b18bac1c5aa5d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time_UI: {fileID: 0}
   image: {fileID: 859639225}
   button: {fileID: 166535924}
+  cost: 100
 --- !u!1 &2047287835
 GameObject:
   m_ObjectHideFlags: 0
