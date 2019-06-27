@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,7 +34,7 @@ public class GrooseCat : Cat_module
 
         if(col.tag == "BossGiant")
         {
-            health -= 100;
+            health -= 125;
             CheckIfDead(health);
             BeAttack(health, weight);
         }

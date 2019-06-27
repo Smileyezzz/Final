@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,9 +6,9 @@ public class GiantBoss : Boss_module
 {
     public GiantBoss()
     {
-        health = 220;
-        speed  = 0.04f;
-        weight = 600f;
+        health = 1000;
+        speed  = 0.1f;
+        weight = 1000f;
     }
 
     void Update()
@@ -20,28 +20,28 @@ public class GiantBoss : Boss_module
     {
         if(col.tag == "NormalCat")
         {
-            health -= 50;
+            health -= 40;
             CheckIfDead(health);
             BeAttack(health, weight);
         }
 
         if(col.tag == "AxeCat")
         {
-            health -= 75;
+            health -= 60;
             CheckIfDead(health);
             BeAttack(health, weight);
         }
 
         if(col.tag == "HipHopCat")
         {
-            health -= 100;
+            health -= 150;
             CheckIfDead(health);
             BeAttack(health, weight);
         }
 
         if(col.tag == "GrooseCat")
         {
-            health -= 100;
+            health -= 200;
             CheckIfDead(health);
             BeAttack(health, weight);
         }

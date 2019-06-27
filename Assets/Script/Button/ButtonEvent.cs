@@ -7,7 +7,8 @@ public class ButtonEvent : Money
 {
     public Graphic image;
     public Button button;
-    public int cost; 
+    public int cost;
+    public float wait; 
     private bool flag = true;
     GameObject btn;
 
@@ -35,7 +36,7 @@ public class ButtonEvent : Money
 
     IEnumerator Delay()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(wait);
         button.interactable = true;
         image.color = Color.green;
         flag = true;

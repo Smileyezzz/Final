@@ -16,7 +16,7 @@ public class Cat_module : MonoBehaviour
 
     protected void BeAttack(int health, float weight)
     {
-        pos = -0.005f*(health + weight);
+        pos = -2000f / (health + weight);
         gameObject.transform.position -= new Vector3(pos, 0, 0);
     }
 

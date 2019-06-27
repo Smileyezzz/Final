@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,9 +6,9 @@ public class BearBoss : Boss_module
 {
     public BearBoss()
     {
-        health = 220;
-        speed  = 0.04f;
-        weight = 600f;
+        health = 500;
+        speed  = 0.09f;
+        weight = 1000f;
     }
 
     void Update()
@@ -34,14 +34,14 @@ public class BearBoss : Boss_module
 
         if(col.tag == "HipHopCat")
         {
-            health -= 100;
+            health -= 175;
             CheckIfDead(health);
             BeAttack(health, weight);
         }
 
         if(col.tag == "GrooseCat")
         {
-            health -= 100;
+            health -= 200;
             CheckIfDead(health);
             BeAttack(health, weight);
         }

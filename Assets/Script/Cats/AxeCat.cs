@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class AxeCat : Cat_module
 {
     public AxeCat()
     {
-        health = 230;
+        health = 250;
         speed  = 0.04f;
         weight = 600f;
     }
@@ -27,14 +27,14 @@ public class AxeCat : Cat_module
 
         if(col.tag == "BossScorpion")
         {
-            health -= 75;
+            health -= 90;
             CheckIfDead(health);
             BeAttack(health, weight);
         }
 
         if(col.tag == "BossGiant")
         {
-            health -= 100;
+            health -= 230;
             CheckIfDead(health);
             BeAttack(health, weight);
         }
