@@ -25,7 +25,7 @@ public class Money : MonoBehaviour{
     void timer(){
 
         money += 1;
-        GameObject.Find("Canvas/Text").GetComponent<Text>().text = money+"";
+        GameObject.Find("Canvas/MoneyText").GetComponent<Text>().text = money+"";
         //CancelInvoke("timer"); //stop the time
 	}
     public int now_money(){
